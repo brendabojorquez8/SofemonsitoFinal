@@ -1,0 +1,16 @@
+.cards {
+  margin-top: 35px;
+  margin-left: 10%;
+  justify-content: center;
+  overflow-y: scroll;
+  height: 65vh;
+}
+
+::-webkit-scrollbar {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 4px;
+}

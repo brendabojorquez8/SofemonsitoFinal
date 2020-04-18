@@ -1,0 +1,39 @@
+.cartList {
+  margin-top: 35px;
+  margin-left: 10%;
+  text-align: center;
+  overflow-y: scroll;
+  height: 65vh;
+}
+
+::-webkit-scrollbar {
+  background: rgba(255, 255, 255, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+
+.adoptBtn {
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: outset rgb(100, 83, 199);
+  margin: 10px;
+  background-color: rgb(119, 101, 221);
+  color: white;
+  text-align: center;
+}
+
+.adoptBtn:hover {
+  border: inset rgb(149, 134, 231);
+}
+#instruction {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: -1px;
+  float: left;
+}

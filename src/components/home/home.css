@@ -1,0 +1,19 @@
+.cards {
+  margin-top: 35px;
+  text-align: center;
+  overflow-y: scroll;
+  height: 75vh;
+}
+
+::-webkit-scrollbar {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 4px;
+}
+
+#instructions {
+  margin-bottom: -25px;
+}

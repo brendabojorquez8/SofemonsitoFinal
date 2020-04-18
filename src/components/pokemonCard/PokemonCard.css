@@ -1,0 +1,105 @@
+.sm-card {
+  width: 20vw;
+  height: 20vw;
+  justify-content: center;
+  margin: 6px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.65);
+}
+
+.sm-card-image {
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255);
+}
+
+.mi-card {
+  width: 45vw;
+  height: 9vw;
+  margin: 6px;
+  border-radius: 10px;
+  border: none;
+  justify-content: left;
+  background-color: rgba(255, 255, 255, 0.65);
+  display: grid;
+  grid-template-areas:
+    "img type type type"
+    "img name name name"
+    "img exp exp exp"
+    "img remove remove remove";
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.mi-card-image {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255);
+  width: 100px;
+  height: 90%;
+  grid-area: img;
+  text-align: left;
+}
+
+.pokeName {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20;
+  text-transform: capitalize;
+  grid-area: name;
+}
+
+.types {
+  display: flex;
+  justify-content: center;
+}
+
+.pokeType {
+  width: 18vw;
+  height: 3vh;
+  border-radius: 5px;
+  margin: 3px;
+  background-color: mediumslateblue;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  grid-area: type;
+}
+
+.exp {
+  text-align: center;
+  grid-area: exp;
+}
+
+.Remove {
+  width: 75px;
+  height: 25px;
+  border-radius: 20px;
+  border: outset rgb(235, 3, 3);
+  color: white;
+  font-weight: bold;
+  background: rgb(184, 13, 13);
+  grid-area: remove;
+}
+
+.Remove:hover {
+  border: inset rgb(255, 73, 73);
+}
+
+.buttonAdd{
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: outset rgb(100, 83, 199);
+  margin: 10px;
+  background-color: rgb(119, 101, 221);
+  color: white;
+  text-align: center;
+}
+
+.buttonAdd:hover{
+  border: inset rgb(149, 134, 231);
+}
